@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap';
+@import "/src/assets/vars.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "/src/assets/RTEstyles.scss";
+
+body{
+    background-color: $beige;
+}
+
+p, h1, h2, h3, h4, h5, li, a {
+  font-family: 'Lato', sans-serif;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+//GENERAL REUSABLE STYLING CLASSES//
+
+.text-align--left {
+  text-align: left;
+}
+
+.text-align--right {
+  text-align: right;
+}
+
+
+//ABOUT PAGE//
+
+.about-section {
+    margin: 0 18%;
+    width: 64%;
+    padding: 2rem 0;
+}
+
+.featurette-divider {
+    margin: 2rem 0 1rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.featurette-heading {
+  color: $blue !important;
+}
+  
+//RESPONSIVE CSS//
+  
+@media (min-width: 40em) {
+  
+.featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+@media (min-width: 62em) {
+.featurette-heading {
+      margin-top: 7rem;
+    }
+  }
