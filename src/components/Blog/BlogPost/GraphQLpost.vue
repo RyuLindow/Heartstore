@@ -100,4 +100,8 @@ export default {
 <style scoped lang="scss">
 @import "/src/assets/blogPost.scss";
 
+.post {
+  padding-top: 2rem;
+}
+
 </style>
